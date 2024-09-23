@@ -76,3 +76,9 @@ section.show-animate .animate{
 .sec2.show-animate .animate{
     transform: translateX(0);
 }
+.sec3 .animate {
+    transform: scale(0.7);
+}
+.sec3.show-animate .animate{
+    transform: scale(1);
+}
