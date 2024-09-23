@@ -8,5 +8,9 @@ window.onscroll = () =>{
         if (scrolldistance >= sectiondistance){
             sec.classList.add('show-animate')
         }
+
+        else{
+            sec.classList.remove('show-animate')
+        }
     })
 }
