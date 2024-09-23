@@ -76,9 +76,23 @@ section.show-animate .animate{
 .sec2.show-animate .animate{
     transform: translateX(0);
 }
+
 .sec3 .animate {
     transform: scale(0.7);
 }
 .sec3.show-animate .animate{
     transform: scale(1);
+}
+
+.sec4 .animate {
+    transform: rotate(40deg);
+}
+.sec4.show-animate .animate{
+    transform: rotate(0) ;
+}
+.sec5 .animate {
+    transform: rotate(-90deg);
+}
+.sec5.show-animate .animate{
+    transform: rotate(0) ;
 }
