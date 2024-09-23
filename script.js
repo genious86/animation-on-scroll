@@ -5,7 +5,7 @@ window.onscroll = () =>{
         let scrolldistance = window.scrollY
         let sectiondistance = sec.offsetTop
 
-        if (scrolldistance >= sectiondistance){
+        if (scrolldistance >= sectiondistance - 150){
             sec.classList.add('show-animate')
         }
 
